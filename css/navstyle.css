@@ -1,0 +1,139 @@
+@media screen and (max-width: 3000px) {
+
+    .header-box {
+        width: 1200px;
+    }
+
+    .nav {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .nav-menu li {
+        padding: 55px 52px 15px;
+        background-position: top;
+        background-position-y: 12px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header-box {
+        width: 90%;
+    }
+
+    .nav-menu li {
+        padding: 55px 30px 15px;
+    }
+
+    .nav-menu li:nth-child(3) a {
+        width: 100px;
+    }
+
+    .nav-menu li:nth-child(4) a {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-menu li {
+        padding: 55px 8px 15px;
+    }
+
+    .nav-menu li:nth-child(3) a {
+        width: 85px;
+    }
+
+    .nav-menu li:nth-child(4) a {
+        width: 155px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .nav {
+        width: 100%;
+        overflow: scroll;
+    }
+
+}
+
+@media screen and (max-width: 425px) {    
+    .nav-menu li {
+        margin: 0px;
+        padding: 19px 0 23px 0;
+        background-position-x: 15px;
+        background-position-y: 12px;
+    }
+
+    .nav-menu li > a{
+        display: block;
+        text-align: left;
+        padding: 0 25px 0 65px;
+    }
+
+    .nav-menu li:nth-child(3) a {
+        width: 90px;
+    }
+
+    .nav-menu li:nth-child(4) a {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .nav {
+        width: 320px;
+    }
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-menu li {
+    background-repeat: no-repeat;
+}
+
+.nav-menu li:nth-child(1) {
+    background-image: url(../img/icon.png);
+}
+
+.nav-menu li:nth-child(2) {
+    background-image: url(../img/icon2.png);
+}
+
+.nav-menu li:nth-child(3) {
+    background-image: url(../img/icon3.png);
+}
+
+.nav-menu li:nth-child(4) {
+    background-image: url(../img/icon4.png);
+}
+
+.nav-menu li:nth-child(5) {
+    background-image: url(../img/icon5.png);
+}
+
+.nav-menu li:nth-child(6) {
+    background-image: url(../img/icon6.png);
+}
+
+.nav-menu li:not(:first-child) {
+    border-left: 1px solid #F1F4F7;
+}
+
+.nav-menu li:hover {
+    background-color: #F8FBFE;
+}
+
+.nav-menu li a:hover {
+    color: #95CE5A;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    color: #333E50;
+}

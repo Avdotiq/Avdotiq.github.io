@@ -1,0 +1,52 @@
+@media screen and (max-width: 3000px) {
+	.baner {
+		width: 1200px;
+		margin: auto;
+	}
+
+	.baner-text {
+		display: flex;
+		padding: 26px 20px;
+	}
+
+	.baner-title {
+		margin-bottom: 6px;
+	}
+
+	.baner-text {
+		background-position-x: 500px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.baner {
+		width: 90%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 425px) {
+
+	.baner-text {
+		display: block;
+	}
+}
+
+.baner-text {
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	background-image: url(../img/cards.png);
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	box-shadow: 0px 4px 20px #EEF0F2;
+	border-radius: 5px;
+}
+
+.baner-title {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.baner-subtitle, .baner-title {
+	color: #333E50;
+}
